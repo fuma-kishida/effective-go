@@ -1,5 +1,5 @@
 ## Formatting
-Goでは `go fmt` にフォーマットを整えさせる。
+Goでは `go fmt` にフォーマットを良しなに整えさせる。
 
 ## 例
 - `go fmt` 前
