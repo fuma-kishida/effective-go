@@ -134,16 +134,5 @@ fmt.Println("Hello", 23)
 fmt.Println(fmt.Sprint("Hello ", 23))
 ```
 
-- `%d`：
-- `%v`：
-- `%+v`：
-- `%#v`：
-- `%q`：
-- `%#q`：
-- `%x`：
-- `% x`：
-- `%T`：
-
-
 
 ## Append
