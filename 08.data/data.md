@@ -136,3 +136,26 @@ fmt.Println(fmt.Sprint("Hello ", 23))
 
 
 ## Append
+- `append`：スライスの終わりに要素を追加し、結果を返す
+### 例
+`append`は任意数の引数をかき集めて処理する
+```golang
+x := []int{1,2,3}
+x = append(x, 4, 5, 6)
+fmt.Println(x)
+```
+```
+[1 2 3 4 5 6]
+```
+
+### 例
+`append`を使用して、スライスにスライスを追加するには`...`を使う
+```golang
+x := []int{1,2,3}
+y := []int{4,5,6}
+x = append(x, y...)
+fmt.Println(x)
+```
+```
+[1 2 3 4 5 6]
+```
